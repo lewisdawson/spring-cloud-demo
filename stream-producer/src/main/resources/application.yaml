@@ -1,0 +1,10 @@
+server:
+  port: 9001
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        market-data-source:
+          destination: market-data
+          group: stream-producer

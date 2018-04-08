@@ -1,0 +1,10 @@
+server:
+  port: 9002
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        market-data-sink:
+          destination: market-data
+          group: stream-consumer

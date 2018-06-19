@@ -6,6 +6,6 @@ spring:
     config:
       server:
         git:
-#          uri: https://github.com/spring-cloud-samples/config-repo
-          uri: ${HOME}/dev/noodle/spring-cloud-demo-config-repo
+          uri: https://github.com/lewisdawson/spring-cloud-demo-config-repo
+#          uri: ${HOME}/dev/noodle/spring-cloud-demo-config-repo
           cloneOnStart: true
